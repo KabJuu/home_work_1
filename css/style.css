@@ -1,0 +1,14 @@
+.navbar{
+	background-color: #394755;
+	border: 0px;
+}
+#bounce {
+	width: 40%;
+	padding-left: 5%;
+	font-size: 18pt;
+}
+a {
+	font-size: 16pt;
+	color: white;
+	font-family: serif;
+}
