@@ -4,36 +4,40 @@
 	<meta charset="UTF-8">
 	<title>home_work_1</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 </head>
 <body>
-<!-->Меню<!-->
-	<nav class="navbar navbar-static-top">
+<!--menu--> 
+	<nav class="navbar navbar-fixed-top">
   		<div class="navbar-inner">
 	    		<ul class="nav nav-tabs center">
-				  <li id="bounce"><a href="#">Bounce</a></li>
+				  <li id="bounce"><a href="#" class="main-menu">Bounce</a></li>
 				  <li class="dropdown">
-				  		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+				  		<a href="#" class="dropdown-toggle main-menu" data-toggle="dropdown">Home<b class="caret"></b></a>
 				  			<ul class="dropdown-menu">
 				  				<li><a href="#">Default Home</a></li>
 				  				<li><a href="#">Alternative Home</a></li>
 				  			</ul>
 				  </li>
-				  <li><a href="#">About</a></li>
+				  <li><a href="#" class="main-menu">About</a></li>
 				  <li class="dropdown">
-				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Feature <b class="caret"></b></a>
+				  	<a href="#" class="dropdown-toggle main-menu" data-toggle="dropdown">Feature <b class="caret"></b></a>
 				  		<ul class="dropdown-menu">
 				  			<li><a href="#">Blog</a></li>
 				  			<li><a href="#">Blog Single</a></li>
 				  			<li><a href="#">Dividers</a></li>
 				  		</ul>
 				  </li>
-				  <li><a href="#">Pricing</a></li>
-				  <li><a href="#">Login</a></li>
-				  <li><a href="#">Register</a></li>
+				  <li><a href="#" class="main-menu">Pricing</a></li>
+				  <li><a href="#" class="main-menu">Login</a></li>
+				  <li><a href="#" class="main-menu">Register</a></li>
 				  <li class="dropdown">
-				  	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+				  	<a href="#" class="dropdown-toggle main-menu" data-toggle="dropdown">Contact<b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Default Contact</a></li>
 							<li><a href="#">Alternative Contact</a></li>
@@ -42,10 +46,128 @@
 				</ul>
   		</div>
 	</nav>
-<!-->Content1<!-->
+<!--content--> 
+	<div class="container content1">
+		<div class="row"">
+			<div class="col-md-5">
+				<h1>Take your product to new heights.</h1>
+				<p id="content-text">Bounce is a modern and minimalistic template perfect for showing off your latest product or service and its features. Bounce comes with many pages and features that make it a wonderful starting point to create something even more unique.</p>
+				<button type="button" class="btn btn-primary btn-lg">Get Started Now</button>
+			</div>
+			<div class="col-md-6">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="http://player.vimeo.com/video/38498748?title=0&amp;byline=0&amp;portrait=0&amp;color=38e8ae" frameborder="0" id="video-presentation"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--content-2-->
+	<div class="container-fluid content2">
+		<div class="row feature">
+			<h4>Great features of your product or service</h4>
+		</div>
+		<div class="row advantages">
+			<div class="col-md-4">
+				<p><i class="fa fa-desktop fa-5x"></i></p>
+				<h4>Modern and Minimalistic</h4>
+				<p>Bounce is built on the awesome frontend framework Bootstrap, giving you easy access to all of its features.</p>
+			</div>
+			<div class="col-md-4">
+				<i class="glyphicon glyphicon-font"></i>
+			 	<h4>Awesome Typography</h4>
+				<p>Bounce uses the beautiful Open Sans Google Web Font and Glyphicons Pro to deliver highly scalable icons.</p>
+			</div>
+			<div class="col-md-4">
+				<i class="glyphicon glyphicon-plane"></i>
+				<h4>Launch Ready</h4>
+				<p>Bounce comes with several pages and colors, giving you a head start on creating a unique design.</p>
+			</div>
+		</div>
+		<div class="row images-example">
+			<div class="col-md-4">
+				<div class="thumbnail">
+			    	<img src="http://quickimage.it/400x200" alt="">
+			   	</div>
+			   	<h4>Image 1</h4>
+			   	<p>Optional subtext to help better explain the image above can go here.</p>
+			</div>
+				<div class="col-md-4">
+				<div class="thumbnail">
+			    	<img src="http://quickimage.it/400x200" alt="">
+			   	</div>
+			   	<h4>Image 2</h4>
+			   	<p>Optional subtext to help better explain the image above can go here.</p>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+			    	<img src="http://quickimage.it/400x200" alt="">
+			   	</div>
+			   	<h4>Image 3</h4>
+			   	<p>Optional subtext to help better explain the image above can go here.</p>
+			</div>
+		</div>
+		<div class="row description">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+<!--footer-->
+	<div class="container-fluid footer">
+			<div class="row foot">
+				<div class="col-md-3">
+					<p class="footer-text">Quick links</p>
+					<ul>
+						<li><a href="" >Home</a></li>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Feature</a></li>
+						<li><a href="">Pricing</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="footer-text">Company</p>
+					<ul>
+						<li><a href="" >Privacy Policy</a></li>
+						<li><a href="">Terms of Use</a></li>
+						<li><a href="">FAQ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="footer-text">We're social</p>
+					<ul>
+						<li><a href="" >Facebook</a></li>
+						<li><a href="">Twitter</a></li>
+						<li><a href="">Google+</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<p class="footer-text">Subscribe</p>
+					<p>Subscribe to our newsletter and stay up to date with the latest news and deals!</p>
+					<input type="text" class="form-control" placeholder="Username">
+					<br>
+					<button class="btn btn-primary btn-s">Subscribe</button>
+				</div>
+			</div>
+	</div>
 
-
-</body>
+<!--copyrighr-->
+		<div class="container-fluid>
+			<div class="panel">
+				<table>
+					<tr>
+						<td style="padding-left: 100px">
+							<i class="glyphicon glyphicon-copyright-mark" style="font-size: 12pt"></i>
+							2013 Bounce Template 
+						</td>
+						<td style="text-align: center;">
+							Back to Top
+							<i class="glyphicon glyphicon-arrow-up" style="font-size: 12pt"></i>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+</body> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </html>
