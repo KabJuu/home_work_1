@@ -14,7 +14,7 @@
 <body>
 <!--menu--> 
 	<nav class="navbar navbar-fixed-top">
-  		<div class="navbar-inner">
+  		<div class="navbar-inner" id="mymenu">
 	    		<ul class="nav nav-tabs center">
 				  <li id="bounce"><a href="#" class="main-menu">Bounce</a></li>
 				  <li class="dropdown">
@@ -68,17 +68,17 @@
 		</div>
 		<div class="row advantages">
 			<div class="col-md-4">
-				<p><i class="fa fa-desktop fa-5x"></i></p>
+				<p><a href="#"><i class="fa fa-desktop fa-5x" id="icons"></i></a></p>
 				<h4>Modern and Minimalistic</h4>
 				<p>Bounce is built on the awesome frontend framework Bootstrap, giving you easy access to all of its features.</p>
 			</div>
 			<div class="col-md-4">
-				<i class="glyphicon glyphicon-font"></i>
+				<p><a href="#"><i class="glyphicon glyphicon-font"></i></a></p>
 			 	<h4>Awesome Typography</h4>
 				<p>Bounce uses the beautiful Open Sans Google Web Font and Glyphicons Pro to deliver highly scalable icons.</p>
 			</div>
 			<div class="col-md-4">
-				<i class="glyphicon glyphicon-plane"></i>
+				<p><a href="#"><i class="glyphicon glyphicon-plane"></i></a></p>
 				<h4>Launch Ready</h4>
 				<p>Bounce comes with several pages and colors, giving you a head start on creating a unique design.</p>
 			</div>
@@ -113,7 +113,7 @@
 		</div>
 	</div>
 <!--footer-->
-	<div class="container-fluid footer">
+	<div class="container-fluid hidden-xs footer">
 			<div class="row foot">
 				<div class="col-md-3">
 					<p class="footer-text">Quick links</p>
@@ -155,7 +155,7 @@
 			<div class="panel">
 				<table>
 					<tr>
-						<td style="padding-left: 100px">
+						<td style="left: 100px">
 							<i class="glyphicon glyphicon-copyright-mark" style="font-size: 12pt"></i>
 							2013 Bounce Template 
 						</td>
